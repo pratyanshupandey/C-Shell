@@ -1,0 +1,49 @@
+Name: Pratyanshu Pandey
+Roll Number: 2019101025
+
+How to run:
+Open the folder that contains the make file in terminal and use command 'make'.
+An executable with name shell will be automatically created.
+Run the command './shell' in the terminal.
+
+Folder and Files Information:
+
+headers.h : includes the most commonly used header files and functions that are 
+            used in all programmes.
+
+headers.c : implementation of the above functions
+
+main.c :    contains the main loop of shell and also the function for 
+            tokenizing command into arguments and logic for redirection and pipes. All other funnctions are called from here.
+
+makefile :  contains compilation commands and file dependencies
+
+builtins :  the folder contains 4 C programme files along with their respective header files.
+
+        cd.c cd.h :     this implements cd builtin command
+        pwd.c pwd.h :   this implements pwd builtin command
+        echo.c echo.h : this implements echo builtin command 
+        env.c env.h :   this implements the setenv and unsetenv builtin commands   
+
+history :   contains history.c and its corresponding history.h header file.
+            implements the history command.
+
+ls :        contains ls.c and its corresponding ls.h header file.
+            implements the ls command and all its flags
+
+nightswatch : contains nightswatch.c and its corresponding nightswatch.h header file.
+                implements the nightswatch command as described in the Assignment doc.
+
+nph : contains nph.c and its corresponding nph.h header file.
+        stands for new process handler 
+        implements all the new processes that are not known commands
+        contains function for both foreground and background process.
+        It manages all the jobs related commands like kjob, jobs, fg, bg.
+
+pinfo : contains pinfo.c and its corresponding pinfo.h header file.
+                implements the nightswatch command as described in the Assignment doc.
+
+prompt : contains prompt.c and its corresponding prompt.h header file.
+        contains functions to display the prompt of the shell.
+
+.history : file to store history of at max 20 commands
