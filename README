@@ -1,10 +1,32 @@
 Name: Pratyanshu Pandey
-Roll Number: 2019101025
 
 How to run:
 Open the folder that contains the make file in terminal and use command 'make'.
 An executable with name shell will be automatically created.
 Run the command './shell' in the terminal.
+
+Features Implemented:
+Check the complete list in the pdf Features.pdf
+
+> Shell Prompt
+> Built-in Commands
+    - echo
+    - pwd
+    - cd
+> ls command
+> history command
+> foreground and background process management
+> pinfo command for process information
+> input/output redirection
+> command pipelines
+> user defined commands
+> signal handling
+> exit codes
+
+Known issues:
+> Background process management sometimes fails in cases with processes as vim and gedit.
+
+
 
 Folder and Files Information:
 
